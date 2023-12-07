@@ -9,16 +9,12 @@ Send location data via TCP.
 Support for JWT authentication for secure connections.
 
 ### Prerequisites
-
 - Go programming environment
-- Git (for cloning the repository)
 - Access to a TCP server for receiving data
 
 ### Installation
-
-Clone the Repository:
-Clone the Pet Walk Simulator repository to your local machine and install using the following command:
 ``
+    git clone https://github.com/pedrovian4/petWalk-simulato
     cd petWalkSimulator
     sudo ./install.sh
 ``
