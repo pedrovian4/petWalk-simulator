@@ -5,10 +5,6 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
-echo "Updating the system and installing Git..."
-apt-get update
-apt-get install -y git
-
 if ! command -v go &> /dev/null
 then
     echo "Go not found. Please install Go before continuing."
